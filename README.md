@@ -655,7 +655,7 @@ http://localhost:8080/api
 ```
 Production:
 ```json
-https://transcendence.duinvoetje.nl/api
+https://transcendence.ferry.works/api
 ```
 
 The backend exposes a REST API for authentication, games, and users.
@@ -666,7 +666,7 @@ All responses are JSON.
 For comprehensive API documentation, visit the interactive Scramble UI:
 
 - **Development:** [http://localhost:8080/docs/api](http://localhost:8080/docs/api)
-- **Production:** [https://transcendence.duinvoetje.nl/docs/api](https://transcendence.duinvoetje.nl/docs/api)
+- **Production:** [https://transcendence.ferry.works/docs/api](https://transcendence.ferry.works/docs/api)
 
 OpenAPI specification (JSON) is also available at `/docs/api.json`.
 

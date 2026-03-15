@@ -6,6 +6,6 @@ import { checker } from 'vite-plugin-checker';
 export default defineConfig({
 	plugins: [tailwindcss(), sveltekit(), checker({ typescript: true })],
 	server: {
-		"allowedHosts": ["*","quinten.codes", "transcendence.duinvoetje.nl", "localhost"]
+		"allowedHosts": ["*","quinten.codes", "transcendence.ferry.works", "localhost"]
 	}
 });

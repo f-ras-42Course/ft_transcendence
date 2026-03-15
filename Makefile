@@ -108,7 +108,7 @@ init:
 	fi
 	@read -r mode_check < .mode 2>/dev/null || mode_check="dev"; \
 	if [ "$$mode_check" = "prod" ]; then \
-		printf "\n$(CYAN)Visit: https://transcendence.duinvoetje.nl$(RESET)\n"; \
+		printf "\n$(CYAN)Visit: https://transcendence.ferry.works$(RESET)\n"; \
 	else \
 		printf "\n$(CYAN)Visit: https://localhost:8080$(RESET)\n"; \
 	fi
